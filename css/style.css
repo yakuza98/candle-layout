@@ -47,6 +47,7 @@ ul {
     
 }
 
+
 .menu__btn span{
     height: 1px;
     background-color: #7b6152;
@@ -157,7 +158,25 @@ header {
         padding: 0 10px;
     } 
     .header__menu-list {
-        display: none;
+        width: 100vw;
+        height: calc(100vh - 75px);
+        background-color: #7b6152;
+        color: #fff8f3;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 18px;
+        text-align: center;
+        gap: 60px 0;
+        padding: 25px 35px 25px 45px;
+        position: absolute;
+        left: 0;
+        top: 75px;
+        transform: translateY(-200%);
+        transition: transform 0.5s ease;
+        z-index: 5;
+    }
+    .header__menu-list.menu--open {
+        transform: translateY(0%);
     }
     .menu__btn {
         display: flex;
