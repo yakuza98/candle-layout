@@ -281,4 +281,12 @@ header {
         padding: 30px 0 50px;
     }
 }
+
+@media (max-width: 380px) {
+    .top__img-l {
+        width: 183px;
+        bottom: 60px;
+        left: -140px;
+    }
+}
 /* RESPONSIVE MEDIA */
