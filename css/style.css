@@ -251,4 +251,34 @@ header {
         font-size: 14px;
     }
 }
+
+@media (max-width: 480px) {
+    .top__img-l {
+        width: 309px;
+        position: absolute;
+        bottom: 20px;
+        left: -150px;
+    }
+    .top__img{
+        position: relative;
+    
+    }
+    .top__content {
+        width: 180px;
+    }
+    .top__title {
+        font-size: 15px;
+    }
+    .top__text {
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+    .top__buy {
+        font-weight: 400;
+        padding: 13px 41px;
+    }
+    .top{
+        padding: 30px 0 50px;
+    }
+}
 /* RESPONSIVE MEDIA */
